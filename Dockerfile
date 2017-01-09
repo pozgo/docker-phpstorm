@@ -1,4 +1,4 @@
-FROM polinux/php:5.6
+FROM polinux/php:7.0
 MAINTAINER Przemyslaw Ozgo linux@ozgo.info
 
 ENV \
