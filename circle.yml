@@ -1,0 +1,19 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker build -t polinux/php:5.4 .
+
+# Run tests
+test:
+  override:
+    - docker run -ti polinux/php:5.4 git --version
+    - docker run -ti polinux/php:5.4 ruby -v
+    - docker run -ti polinux/php:5.4 gem -v
+    - docker run -ti polinux/php:5.4 node -v
+    - docker run -ti polinux/php:5.4 npm -v
+    - docker run -ti polinux/php:5.4 grunt --version
+    - docker run -ti polinux/php:5.4 gulp -v
+    - docker run -ti polinux/php:5.4 php --version

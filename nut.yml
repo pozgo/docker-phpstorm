@@ -1,0 +1,25 @@
+# Run it with Nut
+# Download latest versions from github
+# Windows: https://github.com/matthieudelaro/nut/raw/manualbuild/release/windows/nut.exe
+# macOS: https://github.com/matthieudelaro/nut/raw/manualbuild/release/osx/nut
+# Linux: https://github.com/matthieudelaro/nut/raw/manualbuild/release/linux/nut
+#
+# Start with "nut run"
+
+syntax_version: "6"
+project_name: phpstorm
+mount:
+  main:
+    - ./phpstorm-home/
+    - /home/developer/.PhpStorm2016.3/
+  projects:
+    - ./projects/
+    - /home/developer/PhpstormProjects/
+macros:
+  run:
+    usage: Run PHPStorm in a docker
+    docker_image: polinux/phpstorm:5.4
+    # privileged: true
+    enable_gui: true
+    # security_opts:
+    # - seccomp=unconfined
