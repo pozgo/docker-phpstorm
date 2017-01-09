@@ -18,7 +18,7 @@ mount:
 macros:
   run:
     usage: Run PHPStorm in a docker
-    docker_image: polinux/phpstorm:5.5
+    docker_image: polinux/phpstorm:5.6
     # privileged: true
     enable_gui: true
     # security_opts:
