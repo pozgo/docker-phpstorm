@@ -23,11 +23,12 @@ Another requirement is to have a prperly configured X11 environemnt that would w
 For different PHP versions, look up different branches of this repository.
 On Docker Hub you can find them under different tags:
 
-* `polinux/phpstorm:latest` - PHP 7.0 built from master branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
+* `polinux/phpstorm:latest` - PHP 7.1 built from master branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
 * `polinux/phpstorm:5.4` - PHP 5.4 built from 5.4 branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm/tree/5.4.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
 * `polinux/phpstorm:5.5` - PHP 5.5 built from 5.5 branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm/tree/5.5.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
 * `polinux/phpstorm:5.6` - PHP 5.6 built from 5.6 branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm/tree/5.6.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
 * `polinux/phpstorm:7.0` - PHP 7.0 built from 7.0 branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm/tree/7.0.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
+* `polinux/phpstorm:7.1` - PHP 7.0 built from 7.1 branch [![Circle CI](https://circleci.com/gh/pozgo/docker-phpstorm/tree/7.1.svg?style=svg)](https://circleci.com/gh/pozgo/docker-phpstorm)
 
 ### Directories
 There are two directories that are important for the user.

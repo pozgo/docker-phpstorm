@@ -4,16 +4,16 @@ machine:
 
 dependencies:
   override:
-    - docker build -t polinux/php:7.0 .
+    - docker build -t polinux/php:7.1 .
 
 # Run tests
 test:
   override:
-    - docker run -ti polinux/php:7.0 git --version
-    - docker run -ti polinux/php:7.0 ruby -v
-    - docker run -ti polinux/php:7.0 gem -v
-    - docker run -ti polinux/php:7.0 node -v
-    - docker run -ti polinux/php:7.0 npm -v
-    - docker run -ti polinux/php:7.0 grunt --version
-    - docker run -ti polinux/php:7.0 gulp -v
-    - docker run -ti polinux/php:7.0 php --version
+    - docker run -ti polinux/php:7.1 git --version
+    - docker run -ti polinux/php:7.1 ruby -v
+    - docker run -ti polinux/php:7.1 gem -v
+    - docker run -ti polinux/php:7.1 node -v
+    - docker run -ti polinux/php:7.1 npm -v
+    - docker run -ti polinux/php:7.1 grunt --version
+    - docker run -ti polinux/php:7.1 gulp -v
+    - docker run -ti polinux/php:7.1 php --version
